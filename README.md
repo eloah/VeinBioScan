@@ -10,6 +10,9 @@ Device of the project is a simple box with all hardware and a cylinder for finge
 Image processing: after image  were taken, it is being processed to binary image, croped, converted to numpy array, and compared to the existing data with KNN classifier.  
 
 mGui.py if for all Desktop App widgets. It consists of all windows which are needed for app.
+
 DBManager.py is for controlling a Database inserts and removes.
+
 imageProcessing.py is for all image processes for collecting data. it is possible to addd any data fo any person.
+
 KNNClassifier. Here where is all amgic begins, classifying the new data from existing data for authentication. Splitting for training and validating data KNN classifiers compares the result after training upon existing person data and predict the outcome of algorithm.
